@@ -7,6 +7,7 @@ This project is an FAQ (Frequently Asked Questions) system designed to help user
 
 ## Caching
 To improve performance, the FAQ system includes caching mechanisms to store frequently accessed data. This reduces the load on the server and speeds up response times.
+![screenshot](assets/cache.png)
 
 ### Cache Configuration
 - **Cache Type:** In-memory cache
@@ -59,7 +60,17 @@ Users can select their preferred language from the UI. The system will then disp
 ## UI Structure
 The UI consists of the following main components:
 - **FAQ List:** Displays a list of all FAQs.
+
+![screenshot](assets/list_en.png)
+
+![screenshot](assets/list_hi.png)
+
+![screenshot](assets/list_bn.png)
 - **FAQ Form:** A form for creating or editing FAQs.
+
+![screenshot](assets/add.png)
+
+![screenshot](assets/edit.png)
 
 ## Installation
 1. Clone the repository:
